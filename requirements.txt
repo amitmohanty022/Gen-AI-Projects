@@ -1,22 +1,30 @@
-langchain-google-genai
-langchain_core
-python-dotenv
-streamlit
-langchain_community
-langserve
-fastapi
-uvicorn
-sse_starlette
-bs4
-pypdf
-chromadb
+python-dotenv>=1.2
+# LangChain (v1) and integrations
+langchain>=1.0
+langchain-classic>=1.0
+langchain-core>=1.0
+langchain-community>=0.4
+langchain-text-splitters>=1.0
+langchain-openai>=1.0
+langchain-google-genai>=4.0
+langchain-groq>=1.0
+langchain-huggingface>=1.0
+# RAG / vector stores / loaders
 faiss-cpu
-groq
-cassio
+chromadb
+pypdf
 beautifulsoup4
-langchain-groq
 wikipedia
 arxiv
-langchainhub
-sentence_transformers
-PyPDF2
+sentence-transformers
+# LlamaIndex (test.ipynb)
+llama-index>=0.12
+# Hugging Face (Langchain_And_Huggingface.ipynb)
+transformers
+huggingface_hub
+accelerate
+# Serving examples
+streamlit>=1.50
+fastapi
+uvicorn
+sse-starlette
