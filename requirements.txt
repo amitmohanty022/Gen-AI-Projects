@@ -1,22 +1,27 @@
-langchain-google-genai
-langchain_core
-python-dotenv
-streamlit
-langchain_community
-langserve
-fastapi
-uvicorn
-sse_starlette
-bs4
-pypdf
-chromadb
-faiss-cpu
-groq
-cassio
-beautifulsoup4
-langchain-groq
-wikipedia
-arxiv
-langchainhub
-sentence_transformers
-PyPDF2
+# Common
+python-dotenv>=1.0
+jupyter>=1.1
+
+# Langchain_And_Huggingface.ipynb
+langchain-core>=1.7,<2
+langchain-huggingface>=1.0
+huggingface_hub>=0.30
+transformers>=4.50
+accelerate>=1.0
+torch>=2.5
+
+# RAG For Multiple Data Source.ipynb
+langchain>=1.4,<2
+langchain-community>=0.4
+langchain-openai>=1.7,<2
+langchain-text-splitters>=1.0
+faiss-cpu>=1.9
+wikipedia>=1.4
+arxiv>=2.1
+beautifulsoup4>=4.12
+
+# test.ipynb (LlamaIndex RAG)
+llama-index-core>=0.14
+llama-index-llms-openai>=0.6
+llama-index-embeddings-openai>=0.5
+llama-index-readers-file>=0.5
